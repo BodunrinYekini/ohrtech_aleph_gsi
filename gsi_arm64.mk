@@ -47,7 +47,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_release.mk)
 
 
 PRODUCT_DEVICE := aleph
-PRODUCT_NAME := aosp_aleph
+PRODUCT_NAME := gsi_aleph
 PRODUCT_BRAND := OhrTech
 PRODUCT_MODEL := aleph
 PRODUCT_MANUFACTURER := ohrtech
