@@ -54,7 +54,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_release.mk)
 PRODUCT_PACKAGES += \
 framework-res__auto_generated_rro_product \
 framework-res_navbar_rro \
-FrameworkResOverlay \
 GoogleCaptivePortalLoginGoOverlay \
 GoogleDocumentsUIOverlay \
 GoogleExtServicesConfigOverlay \
