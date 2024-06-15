@@ -53,20 +53,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_release.mk)
 #product overlay
 PRODUCT_PACKAGES += \
 framework-res__auto_generated_rro_product \
-framework-res_navbar_rro \
-GoogleCaptivePortalLoginGoOverlay \
-GoogleDocumentsUIOverlay \
-GoogleExtServicesConfigOverlay \
-GooglePermissionControllerFrameworkOverlay \
-GooglePermissionControllerOverlay \
-ModuleMetadataGoogleOverlay \
-Settings__auto_generated_rro_product \
-SettingsProvider__auto_generated_rro_product \
-SysuiGoConfigOverlay \
-TeleService__auto_generated_rro_product \
-TeleServiceOverlay \
-unisoc-res__auto_generated_rro_product \
-WallpaperOverlay
+framework-res_navbar_rro
 
 
 PRODUCT_DEVICE := aleph
