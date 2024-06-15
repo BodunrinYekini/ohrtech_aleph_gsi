@@ -53,20 +53,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_release.mk)
 PRODUCT_PACKAGES += \
 Gallery2 \
 LiveWallpapersPicker \
-framework-res__auto_generated_rro_product \
 framework-res_navbar_rro \
-GoogleCaptivePortalLoginGoOverlay \
-GoogleDocumentsUIOverlay \
-GoogleExtServicesConfigOverlay \
-GooglePermissionControllerFrameworkOverlay \
-GooglePermissionControllerOverlay \
-ModuleMetadataGoogleOverlay \
-Settings__auto_generated_rro_product \
-SettingsProvider__auto_generated_rro_product \
-SysuiGoConfigOverlay \
-TeleService__auto_generated_rro_product \
-TeleServiceOverlay \
-unisoc-res__auto_generated_rro_product \
 WallpaperOverlay
 
 
