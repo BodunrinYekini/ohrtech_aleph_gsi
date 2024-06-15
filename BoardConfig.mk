@@ -26,6 +26,8 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 
+DONT_DEXPREOPT_PREBUILTS := true
+
 include device/generic/common/mgsi/BoardConfigMgsiCommon.mk
 
 # Emulator system image is going to be used as GSI and some vendor still hasn't
