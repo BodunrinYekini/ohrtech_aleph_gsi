@@ -50,11 +50,10 @@ $(call inherit-product, device/generic/common/gsi_product.mk)
 #
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_release.mk)
 
-PRODUCT_COPY_FILES += \
-$(call find-copy-subdir-files,*,$(DEVICE_PATH)/packages/product/overlay,$(TARGET_COPY_OUT_PRODUCT)/overlay)
+
 
 #product overlay
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
 framework-res__auto_generated_rro_product \
 framework-res_navbar_rro \
 GoogleCaptivePortalLoginGoOverlay \
