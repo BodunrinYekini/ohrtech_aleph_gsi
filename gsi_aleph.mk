@@ -27,13 +27,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_system.mk)
 
+DEVICE_PATH := device/ohrtech/aleph
+
 # Enable mainline checking
 PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := true
 
 #
 # All components inherited here go to system_ext image
 #
-$(call inherit-product, device/generic/common/gsi_system_ext.mk)
+$(call inherit-product, $(DEVICE_PATH)/gsi_system_ext.mk)
 
 #
 # All components inherited here go to product image
