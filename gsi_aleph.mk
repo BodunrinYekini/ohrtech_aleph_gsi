@@ -30,7 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_system.mk)
 DEVICE_PATH := device/ohrtech/aleph
 
 #build gki
-$(call inherit-product, $(DEVICE_PATH)/gki_aleph.mk)
+#$(call inherit-product, $(DEVICE_PATH)/gki_aleph.mk)
 
 # Enable mainline checking
 PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := true
@@ -51,7 +51,7 @@ $(call inherit-product, device/generic/common/gsi_product.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_release.mk)
 
 #product overlay
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
 framework-res__auto_generated_rro_product \
 framework-res_navbar_rro \
 GoogleCaptivePortalLoginGoOverlay \
