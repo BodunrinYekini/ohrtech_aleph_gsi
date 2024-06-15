@@ -46,7 +46,15 @@ $(call inherit-product, device/generic/common/gsi_product.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_release.mk)
 
 
-PRODUCT_NAME := gsi_arm64
-PRODUCT_DEVICE := generic_arm64
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := GSI on ARM64
+PRODUCT_DEVICE := aleph
+PRODUCT_NAME := ohrtech_aleph
+PRODUCT_BRAND := OhrTech
+PRODUCT_MODEL := aleph_Natv
+PRODUCT_MANUFACTURER := ohrtech
+
+PRODUCT_GMS_CLIENTID_BASE := android-ohrtech
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="aleph_Natv-userdebug 13 TP1A.220624.014 20231108-114636 test-keys"
+
+BUILD_FINGERPRINT := OhrTech/aleph_Natv/aleph:13/TP1A.220624.014/20231108-114636:userdebug/test-keys
