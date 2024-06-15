@@ -51,7 +51,8 @@ $(call dist-for-goals,dist_files,kernel/prebuilts/5.15/arm64/prebuilt-info.txt:k
 endif
 
 
-PRODUCT_NAME := gki_arm64
-PRODUCT_DEVICE := gki_arm64
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := GKI on ARM64
+PRODUCT_DEVICE := aleph
+PRODUCT_NAME := ohrtech_aleph_gki
+PRODUCT_BRAND := OhrTech
+PRODUCT_MODEL := aleph_Natv
+PRODUCT_MANUFACTURER := ohrtech
