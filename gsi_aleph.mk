@@ -30,7 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_system.mk)
 DEVICE_PATH := device/ohrtech/aleph
 
 #build gki
-#$(call inherit-product, $(DEVICE_PATH)/gki_aleph.mk)
+$(call inherit-product, $(DEVICE_PATH)/gki_aleph.mk)
 
 # Enable mainline checking
 PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := true
