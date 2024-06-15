@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/gki_aleph.mk \
-    $(LOCAL_DIR)/gsi_aleph.mk
+    $(LOCAL_DIR)/ohrtech_aleph_gki.mk \
+    $(LOCAL_DIR)/ohrtech_aleph.mk
