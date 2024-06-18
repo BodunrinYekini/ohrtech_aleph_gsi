@@ -52,7 +52,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_release.mk)
 #product overlay
 PRODUCT_PACKAGES += \
 Gallery2 \
-Launcher3QuickStepGo \
+override_packages \
+Launcher3
+
 
 
 PRODUCT_DEVICE := aleph

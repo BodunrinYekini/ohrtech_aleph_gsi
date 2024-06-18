@@ -178,12 +178,10 @@ include $(BUILD_PREBUILT)
 
 
 
-# include $(CLEAR_VARS)
-# UNWANTED_OVERRIDE_PACKAGES := \
-#    watchhome \
-#    all_your_unwanted_pacakge \
-#    each_pacakge_one_line
-# LOCAL_MODULE := override_packages
-# LOCAL_MODULE_TAGS := optional
-# PACKAGES.$(LOCAL_MODULE).OVERRIDES := $(strip $(UNWANTED_OVERRIDE_PACKAGES))
-# include $(BUILD_PHONY_PACKAGE)
+include $(CLEAR_VARS)
+UNWANTED_OVERRIDE_PACKAGES := \
+   Launcher3QuickStep
+LOCAL_MODULE := override_packages
+LOCAL_MODULE_TAGS := optional
+PACKAGES.$(LOCAL_MODULE).OVERRIDES := $(strip $(UNWANTED_OVERRIDE_PACKAGES))
+include $(BUILD_PHONY_PACKAGE)
