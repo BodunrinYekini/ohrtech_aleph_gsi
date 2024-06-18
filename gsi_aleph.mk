@@ -52,9 +52,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_release.mk)
 #product overlay
 PRODUCT_PACKAGES += \
 Gallery2 \
-LiveWallpapersPicker \
-framework-res_navbar_rro \
-WallpaperOverlay
+Launcher3QuickStepGo \
 
 
 PRODUCT_DEVICE := aleph
